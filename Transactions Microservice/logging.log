@@ -1,0 +1,112 @@
+INFO  01:16:53 Application started. Press Ctrl+C to shut down.
+INFO  01:16:53 Application started. Press Ctrl+C to shut down.
+INFO  01:16:53 Hosting environment: Development
+INFO  01:16:53 Hosting environment: Development
+INFO  01:16:53 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  01:16:53 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  01:44:14 Application started. Press Ctrl+C to shut down.
+INFO  01:44:14 Application started. Press Ctrl+C to shut down.
+INFO  01:44:14 Hosting environment: Development
+INFO  01:44:14 Hosting environment: Development
+INFO  01:44:14 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  01:44:14 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  01:56:32 Get Transactions Initiated
+INFO  01:56:57 Get Transactions Initiated
+INFO  01:59:25 Get Transactions Initiated
+INFO  03:36:48 Application started. Press Ctrl+C to shut down.
+INFO  03:36:48 Application started. Press Ctrl+C to shut down.
+INFO  03:36:48 Hosting environment: Development
+INFO  03:36:48 Hosting environment: Development
+INFO  03:36:48 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  03:36:48 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  03:52:03 Application started. Press Ctrl+C to shut down.
+INFO  03:52:03 Application started. Press Ctrl+C to shut down.
+INFO  03:52:03 Hosting environment: Development
+INFO  03:52:03 Hosting environment: Development
+INFO  03:52:03 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  03:52:03 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  03:54:09 Application started. Press Ctrl+C to shut down.
+INFO  03:54:09 Application started. Press Ctrl+C to shut down.
+INFO  03:54:09 Hosting environment: Development
+INFO  03:54:09 Hosting environment: Development
+INFO  03:54:09 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  03:54:09 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  04:36:56 Application started. Press Ctrl+C to shut down.
+INFO  04:36:56 Application started. Press Ctrl+C to shut down.
+INFO  04:36:56 Hosting environment: Development
+INFO  04:36:56 Hosting environment: Development
+INFO  04:36:56 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  04:36:56 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+ERROR 04:54:18 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Operator '||' cannot be applied to operands of type 'bool' and 'int'
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at Transactions_Microservice.Controllers.TransactionController.transfer(Object model) in C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice\Controllers\TransactionController.cs:line 131
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:54:18 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Operator '||' cannot be applied to operands of type 'bool' and 'int'
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at Transactions_Microservice.Controllers.TransactionController.transfer(Object model) in C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice\Controllers\TransactionController.cs:line 131
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:56:16 Application started. Press Ctrl+C to shut down.
+INFO  04:56:16 Application started. Press Ctrl+C to shut down.
+INFO  04:56:16 Hosting environment: Development
+INFO  04:56:16 Hosting environment: Development
+INFO  04:56:16 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  04:56:16 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  08:32:33 Application started. Press Ctrl+C to shut down.
+INFO  08:32:33 Application started. Press Ctrl+C to shut down.
+INFO  08:32:33 Hosting environment: Development
+INFO  08:32:33 Hosting environment: Development
+INFO  08:32:33 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  08:32:33 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  08:38:45 getAccount Api called
+INFO  08:38:45 deposit Api called
+INFO  08:38:46 Valid AccountId and amount
+INFO  08:39:06 getAccount Api called
+INFO  08:39:06 withdraw Api called
+INFO  08:39:06 Valid AccountId and amount
+INFO  08:40:40 getAccount Api called
+INFO  08:40:40 withdraw Api called
+INFO  08:40:40 Valid AccountId and amount
+INFO  08:40:40 getAccount Api called
+INFO  08:40:40 deposit Api called
+INFO  08:40:40 Valid AccountId and amount
+INFO  08:40:40 Valid SourceAccountId and TargetAccountId and amount
+INFO  08:41:12 GetTransactions Api called
+INFO  08:41:12 Valid Customer Id
+INFO  08:41:40 GetTransactions Api called
+INFO  08:41:40 Valid Customer Id
+INFO  01:31:07 Application started. Press Ctrl+C to shut down.
+INFO  01:31:07 Application started. Press Ctrl+C to shut down.
+INFO  01:31:07 Hosting environment: Development
+INFO  01:31:07 Hosting environment: Development
+INFO  01:31:07 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
+INFO  01:31:07 Content root path: C:\Users\Anuj-PC\Desktop\mfpe project\Transactions Microservice
